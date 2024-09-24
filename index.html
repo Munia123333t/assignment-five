@@ -14,11 +14,11 @@
     <script src="https://cdn.tailwindcss.com"></script>
 
 </head>
-<body>
-    <header>
+<body class="mx-auto scroll-smooth">
+    <header class="lg:sticky top-0">
         <!-- navber design -->
 
-     <nav class="sticky bg-[#F9F7F3] h-28">
+     <nav class="  bg-[#F9F7F3] h-28 relative">
         <!-- full div -->
 
         <div class="flex justify-between  mx-8">
@@ -40,23 +40,28 @@
         </div>
 
      </nav>
+      <!-- donation and history button  -->
+      <div class="flex justify-center gap-4 mt-7 mb-7 ">
+         <!-- donation button  -->
+         <div>
+            <button class="bg-[#B4F461] h-14 w-32 rounded-lg">
+               <h2 class="text-xl font-bold">Donation</h2>
+            </button>
+         </div>
+          <!-- history button  -->
+          <div>
+            <button class="h-14 w-32 bg-[#B4F461] rounded-lg">
+               <h2 class="text-xl font-bold text-[#111111]">History</h2>
+            </button>
+          </div>
+         </div>
 
     </header>
     <main>
-        <!-- donation and history button  -->
-        <div class="flex justify-center gap-4 mt-16">
-        <!-- donation button  -->
-         <button class="bg-[#B4F461] h-14 w-32 rounded-lg">
-            <h2 class="text-xl font-bold">Donation</h2>
-         </button>
-         <!-- history button  -->
-         <button class="h-14 w-32 bg-[#B4F461] rounded-lg">
-            <h2 class="text-xl font-bold text-[#111111]">History</h2>
-         </button>
-        </div>
+       
 
         <!-- 1st section start  -->
-         <section class=" shadow-sm border mt-7 m-32 border-[#1111111A] rounded-lg">
+         <section class=" shadow-sm border m-32 mt-32 border-[#1111111A] rounded-lg">
             <!-- full div  -->
              <div class="md:flex justify-center gap-12 m-8 overflow-hidden">
                 <!-- img div  -->
